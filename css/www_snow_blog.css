@@ -1,0 +1,173 @@
+.img_table { 
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+
+.dataset{
+  max-width: 50%; 
+  display:block; 
+  margin-right: auto; 
+  margin-left: auto;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+
+.dataset table, .dataset th, .dataset td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.dataset th, .dataset td {
+    padding: 5px;
+    text-align: center;
+}
+
+caption { 
+    font-weight:bold;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tab { 
+  //text-indent:40px;
+ }
+
+ .sub-subtext{
+  font-size: 20px;
+ 	font-weight:bold;
+  color: #2d7788;
+ }
+
+
+
+.sub-caption{
+	font-size: 15px;
+	text-align: center;
+ 	margin-bottom: 10px;
+ }
+
+.caption{
+	font-size: 16px;
+	text-align: center;
+ 	font-weight:bold;
+ 	margin-bottom: 30px;
+ }
+
+.small-txt {
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-align:justify;
+}
+
+
+.abstract-txt {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align:justify;
+}
+
+.normal-txt {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  //text-align:justify;
+  text-align:left;
+}
+
+.normal-txt li {
+  margin-bottom: 20px;
+}
+
+
+.main-wrapper2 {
+  background: #fff;
+  padding: 60px;
+}
+
+.main-wrapper2 .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.main-wrapper2 .section-title .fa {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #2d7788;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+
+.main-wrapper2 .section {
+  margin-bottom: 60px;
+}
+
+.main-wrapper2 .experiences-section .item {
+  margin-bottom: 10px;
+}
+
+.main-wrapper2 .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+
+.main-wrapper2 .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.main-wrapper2 .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+
+.main-wrapper2 .company {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+
+.main-wrapper2 .project-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.main-wrapper2 .projects-section .intro {
+  margin-bottom: 30px;
+}
+
+.main-wrapper2 .projects-section .item {
+  margin-bottom: 15px;
+}
